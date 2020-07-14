@@ -1,0 +1,109 @@
+
+/* Destenations */
+.destBoxes2{
+    margin-top: 24px;
+}
+
+.destBox2,
+.destBox3{
+    height: 270px;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    display: inline-block;
+    box-shadow: inset 0px 200px 2000px -200px #000000b2;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+
+.destBox2:hover,
+.destBox3:hover{
+    box-shadow: inset 0px 200px 2000px -200px #000000dc;
+    cursor: pointer;
+}
+
+
+.destBox2{
+    width: 49%;
+}
+
+.destBox3{
+    width: 32%;
+}
+
+.destHeader{
+    padding: 21px 15px 0;
+    display: inline-flex;
+}
+
+.destHeaderTxt{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+}
+
+.totalProperties{
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 13px;
+}
+
+.destHeaderImg{
+    width: 24px;
+    height: 24px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.avgPriceBox{
+    background-color: #383838;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 0 4px;
+    display: block;
+    font-size: 12px;
+    margin: auto 3px 3px auto;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 40px;
+}
+
+.avgPriceHeader,
+.avgPriceNum{
+    margin: 0;
+    text-align: right;
+    font-weight: 500;
+}
+
+.avgPriceNum{
+    font-size: 16px;
+}
+/* --------------------- ID's --------------------- */
+
+#destNewYork{
+    background-image: url(img/NewYork.jpg);
+    margin-right: 15px;
+}
+
+#destTelAviv{
+    background-image: url(img/TelAviv.jpg);
+}
+
+#destEilat{
+    background-image: url(img/Eilat.jpg);
+    margin-right: 15px;
+}
+
+#destAmsterdam{
+    background-image: url(img/Amsterdam.jpg);
+    margin-right: 15px;
+}
+
+#destLondon{
+    background-image: url(img/London.jpg);
+}
+

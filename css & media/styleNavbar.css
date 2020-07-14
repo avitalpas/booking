@@ -1,0 +1,111 @@
+/* ---------------- main menu style ---------------- */
+.Menu{
+    background-color: #003580;
+}
+
+/* ---------------- Top Menu ---------------- */
+.TopMenu{
+    height: 49px;
+}
+
+.TopMenuContent,
+.BottomMenuContent{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.imgLogo{
+    width: 150px;
+    top: 12px;
+    left: 7px;
+    margin-top: 12px;
+}
+
+.imgLogo:hover,
+.lnkTopMenu:hover,
+.aColor{
+    cursor: pointer;
+}
+
+.aTransperent:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.topMenuLinks{
+    float: right;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.lnkTopMenu{
+    color: white;
+}
+
+#ShekelSymbol{
+    padding: 17px;
+    font-size: 16px;
+}
+
+#imgTopMenuFlag{
+    padding: 15px 17px 12px 17px;
+}
+
+.aTransperent{
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    padding: 7px 10px 7px 10px;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.aColor{
+    background-color: white;
+    color: #003580;
+    border-radius: 3px;
+    padding: 7px 10px 7px 10px;
+    font-weight: bold;
+    margin: 9px 0 auto 17px;
+}
+
+.aColor:hover{
+    color: #1482D0;
+}
+
+/* ---------------- Bottom Menu ---------------- */
+.BottomManu{
+    height: 59px;
+}
+
+.BottomManuList{
+    list-style: none;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 14px;
+    padding-inline-start: 0;
+}
+
+.lnkBottomManu{
+    display: flex;
+    flex-direction: row;
+    padding: 9px 20px 7px 4px;
+    margin-right: 7px;
+}
+
+.lnkBottomManu:hover{
+    cursor: pointer;
+}
+
+.lnkBottomManuTxt{
+    padding-top: 10px;
+}
+
+#stays{
+    border-bottom: 2px solid white;
+}

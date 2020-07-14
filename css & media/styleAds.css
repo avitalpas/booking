@@ -1,0 +1,89 @@
+
+/* Ads */
+.MainBodyHeader{
+    font-size: 20px;
+    padding: 0;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 35px 0 24px;
+}
+
+.divEssentials{
+    display: flex;
+    flex-direction: row;
+}
+
+.essentialsBox{
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    width: 25%;
+    background-position: 16px center;
+    padding-left: 70px;
+    margin-right: 25px;
+}
+
+#carEssential{
+    background-image: url(img/CaeIcon2.png);
+}
+
+#atttractionsEssential{
+    background-image: url(img/Attractions.png);
+}
+
+.essentialsContentHeader{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4285714286em;
+    margin-bottom: 0;
+}
+
+.essentialsContentTxt{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+.divDeals{
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    background-size: 96px;
+    background-position: 24px 24px;
+    padding: 24px 0 24px 150px;
+    margin-top: 24px;
+    background-image: url(img/deals.jpg);
+}
+
+.dealsHeader{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.dealsTxt{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4285714286em;
+    margin: 8px 0 0;
+}
+
+.dealsBtn{
+    color: #07c;
+    font-weight: bold;
+    border: 1px solid #07c;
+    border-radius: 2px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4285714286em;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.dealsBtn:hover{
+    background-color: #E5F0FF;
+}

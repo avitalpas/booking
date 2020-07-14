@@ -1,0 +1,174 @@
+
+/* ------------ Search ------------ */
+.searchBody{
+    background-color: #F7F7F7;
+}
+
+.searchContent{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 44px 5px;
+}
+
+/* Headers */
+.searchContentHeader{
+    font-size: 24px;
+    line-height: 32px;
+    color: #383838;
+    font-weight: 600;
+    display: block;
+    margin: 0;
+}
+
+.searchContentSubHeader{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #383838;
+    margin: 0;
+}
+
+/* Inputs */
+.searchBoxes{
+    background: linear-gradient(to bottom,#febb02 0,#febb02 100%);
+    box-sizing: border-box;
+    border-radius: 3px;
+    list-style: none;
+    margin: 24px 0 16px;
+    display: flex;
+    flex-direction: row;
+    color: #383838;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 4px 4px 4px 1px;
+    box-shadow: -1px 2px 6px 1px #888888;
+}
+
+.searchBox{
+    background-color: white;
+    height: 52px;
+    margin-left: 5px;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-size: 25px;
+    background-position: 16px center;
+    font-weight: 500;
+}
+
+.searchButton{
+    background-color: #0077CC;
+    display: inline;
+    margin-left: 5px;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: 500;
+}
+
+.imgSearchBox{
+    margin-left: 16px;
+    font-weight: 500;
+}
+
+.inputSearch,
+.searchButton{
+    height: 100%;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.inputSearch{
+    width: 120%;
+    font-size: 14px;
+}
+
+.searchButton{
+    width: 125px;
+}
+
+
+.inputSearch::placeholder{
+    font-weight: inherit;
+}
+
+#inputWhere{
+    background-image: url('img/bed.png');
+    width: 35%;
+}
+
+#inputWhen{
+    background-image: url('img/calendar.png');
+    width: 20%;
+
+}
+
+#inputWho{
+    background-image: url('img/person.png');
+    padding-right: 20px;
+    width: 20%;
+}
+
+/* Checkbox */
+.Checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .Checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: white;
+    border: 2px solid #BDBDBD;
+    border-radius: 2px;
+  }
+  
+  .Checkbox input:checked ~ .checkmark {
+    background-color: #0077CC;
+    box-shadow: 0px 0px 2px 4px rgba(0, 119, 204, 0.493); 
+    border: 2px solid #0077CC;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .Checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .Checkbox .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
